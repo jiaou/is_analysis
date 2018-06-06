@@ -1,0 +1,24 @@
+@startuml
+title:评定成绩图
+actor user
+participant users
+participant teacher
+participant course
+participant students
+participant test
+participant score
+alt 老师
+user->users:登录
+users->teacher:获取老师信息
+teacher->course:根据老师信息获取课程号
+course->students:该课程学习的学生
+ students->test:选取该学生的实验评定成绩
+ test->score:获取各评分项
+score->teacher:返回学生实验信息
+teacher->score:评定学生各评分项成绩
+score->test:保存评语，实验总成绩及评改时间
+test->teacher:评定完成
+teacher->user:退出
+end
+
+@enduml
