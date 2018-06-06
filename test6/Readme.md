@@ -32,7 +32,7 @@
 ## 2. 系统总体结构
 ![](系统总体结构.png)
 
-界面设计参见：https://jiaou.github/is_analysis/test6/ui/index.html
+界面设计参见：https://jiaou.github.io/is_analysis/test6/ui/index.html
 
 ## 3. 用例图设计 [源码](Usecase.puml)
 ![](Usecase.png)
