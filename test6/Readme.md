@@ -34,10 +34,10 @@
 
 界面设计参见：https://jiaou.github/is_analysis/test6/ui/index.html
 
-## 3. 用例图设计 [源码](src/Usecase.puml)
+## 3. 用例图设计 [源码](Usecase.puml)
 ![](Usecase.png)
 
-## 4. 类图设计 [源码](src/class.puml)
+## 4. 类图设计 [源码](类图.puml)
 ![](类图.png)
 
 ## 5. 数据库设计
